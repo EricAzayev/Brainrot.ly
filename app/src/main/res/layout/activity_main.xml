@@ -44,10 +44,10 @@
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/notesToRead"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="116dp"
+        android:layout_width="369dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="32dp"
         android:hint="Paste your notes here."
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/personalAssistant" />
@@ -68,14 +68,12 @@
         android:id="@+id/demo"
         android:layout_width="150dp"
         android:layout_height="54dp"
-        android:layout_marginTop="56dp"
-        android:layout_marginEnd="96dp"
-        android:layout_marginBottom="64dp"
         android:onClick="demoText"
         android:text="Insert Demo Text"
-        app:layout_constraintBottom_toBottomOf="@+id/textView"
-        app:layout_constraintEnd_toStartOf="@+id/delete"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.876" />
 
     <Button
         android:id="@+id/delete"
